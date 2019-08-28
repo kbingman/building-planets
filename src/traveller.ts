@@ -27,3 +27,8 @@ export const SIZE = {
   9: '14400',
   A: '16000'
 };
+
+export const Hydrographics = (rand: number): number => {
+  rand = rand > 10 ? 10 : rand;
+  return rand * 10;
+};
